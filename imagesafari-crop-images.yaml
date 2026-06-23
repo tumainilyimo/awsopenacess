@@ -1,0 +1,44 @@
+Name: ImageSafari Crop Image Collection
+Description: >
+  The ImageSafari Crop Image Collection is a curated set of 6,081,555 field
+  photographs representing 18 staple food and legume crops. Images were
+  collected at research stations and farms across eight African countries
+  through 15 research centres. The collection supports computer-vision
+  research in crop identification, phenotyping, agricultural monitoring,
+  dataset curation, domain generalization, and related applications.
+Documentation: >
+  Dataset documentation, access instructions, metadata descriptions, curation
+  methods, and known characteristics are available at
+  https://github.com/CIAT-Artemis/imagesafari-crop-images/blob/main/imagesafari-crop-images.md.
+Contact: https://github.com/CIAT-Artemis/imagesafari-crop-images/issues
+ManagedBy: "[Alliance of Bioversity International and CIAT](https://alliancebioversityciat.org/)"
+UpdateFrequency: New curated releases are published as they become available.
+Collabs:
+  ASDI:
+    Tags:
+      - agriculture
+Tags:
+  - agriculture
+  - computer vision
+  - machine learning
+  - image processing
+  - labeled
+  - life sciences
+License: "[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)"
+Citation: >
+  Alliance of Bioversity International and CIAT (2026). ImageSafari Crop Image
+  Collection. Registry of Open Data on AWS. When using the collection, cite
+  the dataset, provide a link to the license, and indicate whether changes were
+  made.
+Resources:
+  - Description: Curated ImageSafari crop images in JPEG, PNG, and WebP formats.
+    ARN: arn:aws:s3:::<S3-BUCKET-NAME>
+    Region: <AWS-REGION>
+    Type: S3 Bucket
+DataAtWork:
+  Tutorials:
+    - Title: Get To Know A Dataset - ImageSafari Crop Image Collection
+      URL: https://github.com/CIAT-Artemis/imagesafari-crop-images/blob/main/get-to-know-a-dataset-imagesafari.ipynb
+      NotebookURL: https://github.com/CIAT-Artemis/imagesafari-crop-images/blob/main/get-to-know-a-dataset-imagesafari.ipynb
+      AuthorName: Alliance of Bioversity International and CIAT
+      AuthorURL: https://alliancebioversityciat.org/

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use this dataset, please cite it using the metadata below.
+title: ImageSafari Crop Image Collection
+type: dataset
+authors:
+  - name: Alliance of Bioversity International and CIAT
+year: 2026
+license: CC-BY-SA-4.0
+repository-code: https://github.com/CIAT-Artemis/imagesafari-crop-images
+url: https://github.com/CIAT-Artemis/imagesafari-crop-images
+abstract: >
+  A curated collection of 6,081,555 field photographs representing 18 staple
+  food and legume crops, collected through 15 research centres across eight
+  African countries.
+keywords:
+  - agriculture
+  - computer vision
+  - crop images
+  - machine learning
+  - phenotyping
