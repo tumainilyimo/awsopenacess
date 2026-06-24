@@ -145,8 +145,8 @@ Metadata are derived from the object key and source inventory.
 
 ## Accessing the data
 
-The collection will be publicly readable. After AWS provides the bucket and
-Region, replace `<S3-BUCKET-NAME>` and `<AWS-REGION>` in the commands below.
+The collection is publicly readable. The commands below use anonymous (unsigned)
+access, so no AWS account or credentials are required.
 
 List the top-level crop prefixes:
 
@@ -249,7 +249,7 @@ license.
 
 ## Citation
 
-Use the following citation until a DOI or final Registry URL is assigned:
+Use the following citation:
 
 > Alliance of Bioversity International and CIAT (2026). *ImageSafari Crop
 > Image Collection*. Registry of Open Data on AWS.
