@@ -105,10 +105,7 @@ The following materials are not included:
 
 - Files rejected during curation because they were corrupted, exact
   duplicates, empty, or identified as off-type or wrong-crop images
-- The untagged `unknown` crop class from the working corpus
-- Embeddings, UMAP coordinates, clustering assignments, and other intermediate
-  curation artefacts
-- Pre-annotated training datasets stored separately under annotation folders
+
 
 ## Data organization
 
@@ -229,21 +226,13 @@ may provide useful signal for robust model development.
   images, while soybean and cassava each account for less than 0.3%.
 - Geographic contributions are uneven, with Kenya and Tanzania dominating the
   source corpus.
-- Seasonal coverage differs by crop, and some crop-season combinations contain
-  no images.
 - Visually similar crops and growth stages can make fine-grained
   classification difficult.
-- Metadata are parsed from heterogeneous source paths and may be missing for a
-  small number of objects.
-- A random image-level split may leak near-duplicate conditions or
-  centre-specific visual characteristics. Where possible, evaluate with
-  centre-, country-, season-, or time-aware splits.
+
 
 ## Suggested research tasks
 
-- Crop classification across countries and growth stages
 - Cross-centre and cross-country domain generalization
-- Near-duplicate and mislabel detection
 - Dataset quality assessment and scalable curation
 - Self-supervised representation learning for African crop imagery
 - Few-shot learning for crops with limited representation
